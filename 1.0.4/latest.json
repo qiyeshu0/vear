@@ -1,0 +1,56 @@
+{
+  "format": "vear-update-index-v2",
+  "channel": "stable",
+  "version": "1.0.4",
+  "releasedAt": "2026-07-13",
+  "releaseName": "全系统北京时间统一",
+  "minimumVersion": "1.0.0",
+  "updateType": "cumulative",
+  "fullCodeUpdate": false,
+  "restartRequired": true,
+  "miniprogramVersion": "1.0.1",
+  "changelog": [
+    "Node 运行环境、MySQL 会话、Docker 和 PM2 统一使用 Asia/Shanghai 时区",
+    "备份文件名、备份清单、自动备份计划和更新记录统一输出北京时间及 +08:00 标识",
+    "管理端统一转换带时区的接口时间，数据库业务时间按北京时间稳定显示",
+    "修复 UTC 日期在北京时间午夜前后导致卡项有效期判断偏差的问题"
+  ],
+  "packages": [
+    {
+      "fromVersions": [
+        "1.0.3"
+      ],
+      "name": "vear-update-1.0.3-to-1.0.4.zip",
+      "urls": [
+        "https://api.llqxs.cn/updates/stable/1.0.4/vear-update-1.0.3-to-1.0.4.zip",
+        "https://github.com/qiyeshu0/vear/releases/download/v1.0.4/vear-update-1.0.3-to-1.0.4.zip"
+      ],
+      "size": 816772,
+      "sha256": "c0db39ebb8bde9f8c4b1823adfc834afaaf0ce037402fe394413c852e3a18b59",
+      "manifestSha256": "9f2c6c7dae09f857aea5d3c19f50c4c19651998edf254c681c5ce74c2f03025e",
+      "changedFiles": 58,
+      "deletedFiles": 42,
+      "fullCodeUpdate": false
+    },
+    {
+      "fromVersions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3"
+      ],
+      "name": "vear-update-legacy-1x-to-1.0.4.zip",
+      "urls": [
+        "https://api.llqxs.cn/updates/stable/1.0.4/vear-update-legacy-1x-to-1.0.4.zip",
+        "https://github.com/qiyeshu0/vear/releases/download/v1.0.4/vear-update-legacy-1x-to-1.0.4.zip"
+      ],
+      "size": 1340151,
+      "sha256": "7e77ece296c91e904f172571be781e56e9ee0b7d8b427fbc0d21fa594382ab0a",
+      "manifestSha256": "f4d125b1d5845f908a2021743dbacde63c7fc479c3d23e0d20dfa07f0f547a95",
+      "changedFiles": 265,
+      "deletedFiles": 0,
+      "fullCodeUpdate": true
+    }
+  ],
+  "signature": "gT6YHM3knCnoo7+XxrImZ97NGXluH0lft947xDR+ffYcdLxlUIuxu2HsVFSEum7IQSbWI06NEz8yWMPoI3+OBQ=="
+}

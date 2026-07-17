@@ -1,0 +1,55 @@
+{
+  "format": "vear-update-index-v2",
+  "channel": "stable",
+  "version": "1.0.2",
+  "releasedAt": "2026-07-13",
+  "releaseName": "小程序刷新与接口中心完善",
+  "minimumVersion": "1.0.0",
+  "updateType": "cumulative",
+  "fullCodeUpdate": false,
+  "restartRequired": true,
+  "miniprogramVersion": "1.0.1",
+  "changelog": [
+    "小程序23个页面全部支持下拉刷新，表单页刷新不丢失未提交内容",
+    "小程序订阅续订点击冷却调整为1秒，完善请求超时和正式环境错误脱敏",
+    "接口中心补全为141条路径、169个请求操作，增加分类搜索、认证提示和路径参数保护",
+    "修复接口测试权限并兼容旧会话，交付包和增量包强制携带OpenAPI文档",
+    "收紧API Key安全边界，禁止外部密钥访问系统更新、配置、备份等控制面接口"
+  ],
+  "packages": [
+    {
+      "fromVersions": [
+        "1.0.1"
+      ],
+      "name": "vear-update-1.0.1-to-1.0.2.zip",
+      "urls": [
+        "https://api.llqxs.cn/updates/stable/1.0.2/vear-update-1.0.1-to-1.0.2.zip",
+        "https://github.com/qiyeshu0/vear/releases/download/v1.0.2/vear-update-1.0.1-to-1.0.2.zip"
+      ],
+      "size": 321509,
+      "sha256": "e1811e38f55590f278e089376fcf043fd629183362a2222943e5fea9bf73b7a5",
+      "manifestSha256": "b0e2783f5bf87e8b6389e0f8c91c9ba79e584cf82785ac1fb52db4fc0632052c",
+      "changedFiles": 76,
+      "deletedFiles": 34,
+      "fullCodeUpdate": false
+    },
+    {
+      "fromVersions": [
+        "1.0.0",
+        "1.0.1"
+      ],
+      "name": "vear-update-legacy-1x-to-1.0.2.zip",
+      "urls": [
+        "https://api.llqxs.cn/updates/stable/1.0.2/vear-update-legacy-1x-to-1.0.2.zip",
+        "https://github.com/qiyeshu0/vear/releases/download/v1.0.2/vear-update-legacy-1x-to-1.0.2.zip"
+      ],
+      "size": 1334672,
+      "sha256": "7f877f08a12b6c2369e1920540f2788ee12dae17df27f3889c0746458d9856f3",
+      "manifestSha256": "bbd200fb484f1e9b4fa7cd9c26a7e528711729050532c52e19d8d66b0ca9094c",
+      "changedFiles": 261,
+      "deletedFiles": 0,
+      "fullCodeUpdate": true
+    }
+  ],
+  "signature": "r4RHW0nIDk+uREoh0k7u1PkRlc5Z/1uEJOdypNM+WDDDKVtLqwA81Qk19Sefr6RMHLIkAXD+MT9w18FqXxwcAg=="
+}

@@ -1,0 +1,19 @@
+{
+  "format": "vear-update-index-v2",
+  "channel": "stable",
+  "version": "1.0.0",
+  "releasedAt": "2026-07-13",
+  "releaseName": "首次正式交付版",
+  "minimumVersion": "1.0.0",
+  "updateType": "baseline",
+  "restartRequired": false,
+  "miniprogramVersion": "1.0.0",
+  "changelog": [
+    "完成客户档案、开卡续卡、核销、来访、配镜交付与报表中心",
+    "完成角色权限、数据备份恢复、短信与微信订阅消息配置",
+    "完成 Pure Admin 管理后台和家长端/员工端小程序适配",
+    "增加版本中心、安全增量更新、更新前备份和失败回滚能力"
+  ],
+  "packages": [],
+  "signature": "ZNzZ+E5XDVZq7YxlaVODsyyrkJ3fA6wjJWxpvMrZrkZBF0YlbEF4bswBlyM/B0zkTNXoHjvgW4lZghR4g297Aw=="
+}

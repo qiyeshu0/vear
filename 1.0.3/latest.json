@@ -1,0 +1,55 @@
+{
+  "format": "vear-update-index-v2",
+  "channel": "stable",
+  "version": "1.0.3",
+  "releasedAt": "2026-07-13",
+  "releaseName": "跨服务器备份恢复兼容修复",
+  "minimumVersion": "1.0.0",
+  "updateType": "cumulative",
+  "fullCodeUpdate": false,
+  "restartRequired": true,
+  "miniprogramVersion": "1.0.1",
+  "changelog": [
+    "修复相同版本跨服务器恢复时因 system_seed_history 等内部表缺失而失败的问题",
+    "数据库备份不再迁移系统更新记录、迁移记录、基础资料标记和登录会话",
+    "兼容既有 1.0.2 备份，恢复时自动跳过目标服务器自行维护的内部运行表",
+    "统一内部系统表建表流程，并在在线更新时自动补齐缺失结构"
+  ],
+  "packages": [
+    {
+      "fromVersions": [
+        "1.0.2"
+      ],
+      "name": "vear-update-1.0.2-to-1.0.3.zip",
+      "urls": [
+        "https://api.llqxs.cn/updates/stable/1.0.3/vear-update-1.0.2-to-1.0.3.zip",
+        "https://github.com/qiyeshu0/vear/releases/download/v1.0.3/vear-update-1.0.2-to-1.0.3.zip"
+      ],
+      "size": 26771,
+      "sha256": "e94a10e2c20623ba1ac3728910a07fa505f23cdc3ec95f0dea5b694a1ed2b628",
+      "manifestSha256": "6326e037e70a8920685078b4d1e3f5afbcfb0edeab39f2c7f9cef0f6b507d766",
+      "changedFiles": 5,
+      "deletedFiles": 0,
+      "fullCodeUpdate": false
+    },
+    {
+      "fromVersions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2"
+      ],
+      "name": "vear-update-legacy-1x-to-1.0.3.zip",
+      "urls": [
+        "https://api.llqxs.cn/updates/stable/1.0.3/vear-update-legacy-1x-to-1.0.3.zip",
+        "https://github.com/qiyeshu0/vear/releases/download/v1.0.3/vear-update-legacy-1x-to-1.0.3.zip"
+      ],
+      "size": 1335413,
+      "sha256": "71a1fbc52f8f4b122ed5c6313d4a452186d62bc8986a2cb29da02bb927fa5647",
+      "manifestSha256": "64bf38ee19ce0d70ada3665c0d554947d8e6060c7c980996dca85af51e996414",
+      "changedFiles": 262,
+      "deletedFiles": 0,
+      "fullCodeUpdate": true
+    }
+  ],
+  "signature": "lbJUnH+hY1I2B0+43Chub2wICR2y1+17mAJ1659ykaFvOfStsZLJb+bFHKLudbg52nq+8RhJ5s+sLkAncbppCA=="
+}

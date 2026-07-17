@@ -1,0 +1,58 @@
+{
+  "format": "vear-update-index-v2",
+  "channel": "stable",
+  "version": "1.0.5",
+  "releasedAt": "2026-07-14",
+  "releaseName": "PM2 一键交付启动",
+  "minimumVersion": "1.0.0",
+  "updateType": "cumulative",
+  "fullCodeUpdate": false,
+  "restartRequired": true,
+  "miniprogramVersion": "1.0.1",
+  "changelog": [
+    "新增 npm run pm2:start 一键启动，自动检查依赖并在缺少 PM2 时自动安装",
+    "PM2 进程统一命名为 vear，自动迁移同目录遗留进程并保存进程列表",
+    "PM2 每次启动或重启都会执行依赖检查，并在启动后自动验证健康接口",
+    "补齐 PM2 状态、日志、停止和删除命令，部署文档同步简化",
+    "访问日志统一使用中国大陆北京时间 +0800"
+  ],
+  "packages": [
+    {
+      "fromVersions": [
+        "1.0.4"
+      ],
+      "name": "vear-update-1.0.4-to-1.0.5.zip",
+      "urls": [
+        "https://api.llqxs.cn/updates/stable/1.0.5/vear-update-1.0.4-to-1.0.5.zip",
+        "https://github.com/qiyeshu0/vear/releases/download/v1.0.5/vear-update-1.0.4-to-1.0.5.zip"
+      ],
+      "size": 15405,
+      "sha256": "84f7a5bbeee44cea249dacd26e47807888a90c181c4f3626cc5fdd44c4c07cd5",
+      "manifestSha256": "8cc58ae5bedab1620d94388af62c1aecc50e39cbe054c7f048f07a67a27dd896",
+      "changedFiles": 8,
+      "deletedFiles": 0,
+      "fullCodeUpdate": false
+    },
+    {
+      "fromVersions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4"
+      ],
+      "name": "vear-update-legacy-1x-to-1.0.5.zip",
+      "urls": [
+        "https://api.llqxs.cn/updates/stable/1.0.5/vear-update-legacy-1x-to-1.0.5.zip",
+        "https://github.com/qiyeshu0/vear/releases/download/v1.0.5/vear-update-legacy-1x-to-1.0.5.zip"
+      ],
+      "size": 1343639,
+      "sha256": "6636ee741047f1715f73c9f00e6c61d92cc1f64b8e5e8632b3dabeedc2335c8b",
+      "manifestSha256": "0b8d07edbca359b9e307775bdc5094ba43b959abae0bef5340a32e1b85346c47",
+      "changedFiles": 267,
+      "deletedFiles": 0,
+      "fullCodeUpdate": true
+    }
+  ],
+  "signature": "Ln2TMxPeaQ+exymX6sAOCJfQSaMYHASHK0j9Wp246TRe8NHQuyiQYcShJ9M9heTqgfgmA6Oub96LZyJr8xnjCw=="
+}

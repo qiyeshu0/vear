@@ -1,0 +1,36 @@
+{
+  "format": "vear-update-index-v2",
+  "channel": "stable",
+  "version": "1.0.1",
+  "releasedAt": "2026-07-13",
+  "releaseName": "交付版更新能力完善",
+  "minimumVersion": "1.0.0",
+  "updateType": "cumulative",
+  "fullCodeUpdate": true,
+  "restartRequired": true,
+  "miniprogramVersion": "1.0.0",
+  "changelog": [
+    "全新安装自动提供35个训练项目和42个可编辑卡项模板",
+    "完善更新清单独立签名校验、主备更新源切换和失败保护",
+    "客户后台隐藏内部更新地址、镜像信息、签名指纹和服务器路径",
+    "完善客户交付包自动测试、生产构建和后续增量发布流程"
+  ],
+  "packages": [
+    {
+      "fromVersions": [
+        "1.0.0"
+      ],
+      "name": "vear-update-1.0.0-to-1.0.1.zip",
+      "urls": [
+        "https://api.llqxs.cn/updates/stable/1.0.1/vear-update-1.0.0-to-1.0.1.zip",
+        "https://github.com/qiyeshu0/vear/releases/download/v1.0.1/vear-update-1.0.0-to-1.0.1.zip"
+      ],
+      "size": 1319470,
+      "sha256": "14b6a09d6cbb6b1ebd0cb23c1132608ef57889dcb6a5fcc8eeeadbc98c3f14a5",
+      "manifestSha256": "42037ebaa6969ebaaecab5e98e4fd0aadc5a63d655be0390b6602616b9f654c6",
+      "changedFiles": 259,
+      "deletedFiles": 0
+    }
+  ],
+  "signature": "Y1eBopwhAyiAJW8uSqejgjxN6w4ck9WEXo+4qdH70IGZ4dQubkDGLajys16o/DZGA7W75xEr1TA7STqCl6G3Cw=="
+}
